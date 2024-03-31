@@ -51,6 +51,7 @@
               {% endfor %}
             {% endif %}
           {% endwith %}
+          {{ moment.include_moment() }}
           {% block content %}{% endblock %}
         </div>
         <div class="col-md-4">
